@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.images{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(100,199, 217, 0.73)),url(https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    min-height: 100%;
+    min-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+label{
+   
+    font-family: 'Athiti', sans-serif;
+}
+
+input,textarea{
+    border: hidden;
+    outline: none;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-form{
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+.header-form h2{
+    padding-bottom: 10px;
+    color: white;
+    text-shadow: 5px 5px rgba(74, 230, 230);
+   font-size: 4rem;
+}
+
+.header-form hr{
+    border: hidden;
+    background-color: white;
+    height: 5px;
+}
+
+.header-form p{
+    padding-top: 10px;
+    opacity: 0.4;
+    font-size: 2em;
+ }
+
+.container-form{
+    border-radius: 5px;
+    padding: 50px;
+    background: rgba(74, 230, 230, .3) ;
+    width: 500px;
+    font-family: 'Athiti', sans-serif;
+    margin-bottom: 100px;
+}
+
+.container-form input[type = text],input[type = email],input[type = number]{
+    border-radius: 0.7em;
+    height: 50px;
+    width: 450px;
+    font-size:16px;
+
+}
+
+
+.container-form select{
+    border-radius: 0.7em;
+    height: 50px;
+    width: 300px;
+}
+
+.radio-style{
+    padding-top: 10px;
+    display: flex;
+}
+
+.radio-style label , .checkox-style label{
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.radio-style input[type = radio]{
+    width:25px;
+    height:25px;
+}
+
+.name-form,.email-form,.age-form,.timejob-form,.knowwebsitedetail-form,.programskill-form,.comment-form{
+    display: block;
+    margin: 1.75rem;
+}
+
+.checkox-style{
+    display: flex;
+}
+
+.checkox-style input[type=checkbox]{
+    width:25px;
+    height:25px;
+}
+
+.area-style textarea{
+    border-radius: 5px;
+    width: 450px;
+}
+
+.button-submit{
+    text-align: center;
+    padding-top: 40px;
+}
+.button-style{
+    background-color:#FFF;
+    border-radius: 5px;
+    height: 50px;
+    width: 450px;
+    transition: 1s;
+} 
+
+.button-style:hover{
+    background-color: #A3EBB1;
+}
+
+
+.input-type{
+    padding-left: 20px;
+}
+
+#comment{
+    padding: 20px;
+}
+

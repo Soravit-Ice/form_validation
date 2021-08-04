@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project2</title>
+    <link rel="stylesheet" href="style-form.css">
+</head>
+<body>
+    <div class="images">
+    <div class="form">
+        <div class="header-form">
+            <h2>TeeDev Form Project</h2>
+            <hr>
+            <p>project html+css by tee-dev</p>
+        </div>
+        <div class="container-form">
+            <form  action="#" id="userdetail">
+                <div class="name-form">
+                    <label>ชื่อจริง-นามสกุล</label>
+                    <input type="text" class="input-type"placeholder="โปดรกรอกชื่อของคุณ" required>
+                </div>
+                <div class="email-form">
+                    <label>อีเมล</label>
+                    <input type="email" class="input-type" placeholder="โปรดกรอกอีเมลของคุณ" required>
+                 </div>
+                 <div class="age-form">
+                    <label>อายุ</label>
+                    <input type="number" class="input-type" min=12 max=150 placeholder="โปรดกรอกอายุของคุณ" required>
+                </div>
+                <div class="timejob-form">
+                    <label for="timejob">ระยะเวลาที่ต้องการทำงาน</label>
+                    <select name="timejob" id="timejob" >
+                        <option value="" disabled selected>Select your TimeJob</option>
+                        <option value="Full-time">Full-Time</option>
+                        <option value="Part-time">Part-Time</option>
+                    </select>
+                </div>
+                    <div class="knowwebsitedetail-form">
+                        <label>รู้จักเว็บไซส์นี้จากช่องทางไหน</label>
+                        <div class="radio-style">
+                            <input type="radio" id="friend" name="knowwebsitedetail" value="friend">
+                            <label for="friend">Friend</label> 
+                        </div >
+                        <div class="radio-style">
+                            <input type="radio" id="facebook" name="knowwebsitedetail" value="facebook">
+                            <label for="facebook">Facebook</label>
+                        </div>
+
+                        <div class="radio-style">
+                            <input type="radio" id="youtube" name="knowwebsitedetail" value="youtube">
+                            <label for="youtube">Youtube</label>
+                        </div>
+                </div>
+                <div class="programskill-form">
+                    <label>คุณเขียนภาษาอะไรได้บ้าง (สามารถเลือกได้มากกว่า 1 หัวข้อ)</label>
+                    <div class="checkox-style">
+                        <input type="checkbox" id="java" name="java" value="java">
+                        <label for="java">Java</label>
+                    </div>
+                    <div class="checkox-style">
+                        <input type="checkbox" id="javascript" name="javascript" value="javascript">
+                        <label for="javascript">Javascript</label>
+                     </div>
+                    <div class="checkox-style">
+                        <input type="checkbox" id="python" name="python" value="python">
+                        <label for="java">Python</label>
+                    </div>
+                    <div class="checkox-style">
+                        <input type="checkbox" id="c" name="c" value="c">
+                        <label for="c">C</label>
+                    </div>
+                </div>
+                <div class="comment-form">
+                    <label>สอบถามเพิ่มเติม</label>
+                    <div class="area-style">
+                    <textarea name="comment" id="comment" cols="30" rows="10" form="userdetail" placeholder="   โปรดแสดงความคิดเห็น"></textarea>
+                </div>
+                <div class="button-submit">
+                   <button class="button-style">Submit</button>
+                </div>
+                </div>
+            </form>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
+
